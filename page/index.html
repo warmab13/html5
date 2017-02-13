@@ -55,11 +55,12 @@
 	Tu navegador no puede mostrar este contenido
 </canvas>
 
-<audio controls="controls">
+<audio controls="controls" preload="auto, metadata, none">
+<!--si el autoplay esta declarado preload se descarta, auto menciona que la cancion se cargo cuando la pagina se cargo, metadata, menciona los datos que se cargaron cuando se cargo de la pagina, -->
 	<source src="public/sounds/useryeah.mp3" type="audio/mp3">
-	
+	Tu navegador no es compatible con HTML5
 </audio>
-<audio controls="controls">
+<audio controls="controls" autoplay="autoplay" loop="loop">
 	<source src="public/sounds/mygod.wav" type="audio/wav">
 </audio>
 	
