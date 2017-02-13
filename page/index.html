@@ -36,15 +36,11 @@
 </article>
 <section><!--Sirve para definir una seccion dentro de nuestra pagina, no es un contenedor dinamico, para un contenedor dinamico es con div-->
 	<article>
-	<hgroup>
-		<h1>Lorem</h1>
-		<h2>Cosa</h2>
-		<h3></h3>
-	</hgroup>
-	<div id="section-text"> <!--Contenedor dinamico-->
-		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perferendis, odio aliquid eius, nemo nobis assumenda, enim animi laudantium pariatur quasi officia illum repellat, excepturi natus eligendi cumque! Fugiat, ipsum?</h1>
-	</div>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in vero quae delectus accusantium incidunt, eligendi suscipit, aliquam autem, veritatis doloribus? Reprehenderit impedit dolorum incidunt? Veritatis commodi ab, cupiditate amet?</article>
+		<div id="section-text"> <!--Contenedor dinamico-->
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perferendis, odio aliquid eius, nemo nobis assumenda, enim animi laudantium pariatur quasi officia illum repellat, excepturi natus eligendi cumque! Fugiat, ipsum?</h1>
+		</div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos in vero quae delectus accusantium incidunt, eligendi suscipit, aliquam autem, veritatis doloribus? Reprehenderit impedit dolorum incidunt? Veritatis commodi ab, cupiditate amet?
+	</article>
 	
 </section>
 
@@ -55,6 +51,15 @@
 	</aside>
 </div>
 
+<canvas id="miCanvas" width="300" height="400" style="border:solid; border-width: 2px;">
+	Tu navegador no puede mostrar este contenido
+</canvas>
 	
 </body>
+
+<script>
+	var canvas = document.getElementById("miCanvas");
+	var ctx = canvas.getContext("2d");
+	ctx.fillRect(0,0,20,20);
+</script>
 </html>
